@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--VoIP通话中,显示双方视频并提供挂断按钮-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <tv.caratech.tvclient.PercentFrameLayout
+            android:id="@+id/local_video_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <org.webrtc.SurfaceViewRenderer
+                android:id="@+id/local_video_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </tv.caratech.tvclient.PercentFrameLayout>
+
+        <tv.caratech.tvclient.PercentFrameLayout
+            android:id="@+id/remote_video_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <org.webrtc.SurfaceViewRenderer
+                android:id="@+id/remote_video_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </tv.caratech.tvclient.PercentFrameLayout>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/voip_hangup_call"
+        android:layout_gravity="start|bottom"
+        android:src="@android:drawable/ic_menu_call"
+        style="@style/Widget.fab"/>
+
+</FrameLayout>

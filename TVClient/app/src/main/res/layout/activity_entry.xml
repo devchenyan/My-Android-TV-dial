@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="tv.caratech.tvclient.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickCall"/>
+
+        <TextView
+            android:id="@+id/lbl_mysipuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Center"/>
+
+        <EditText
+            android:id="@+id/txt_sipcalleduser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
