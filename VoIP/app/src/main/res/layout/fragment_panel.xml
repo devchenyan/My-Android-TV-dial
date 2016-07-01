@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#b3131313"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/panel_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="输入手机号码/视讯号"
+        android:textSize="@dimen/font_size_main"
+        android:gravity="center"
+        android:textColor="@color/colorSelected"/>
+
+    <!--第1行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/panel_1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="1"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"
+
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/panel_2"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="2"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"
+
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/panel_3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="3"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"/>
+    </LinearLayout>
+
+    <!--第2行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/panel_4"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="4"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"
+
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/panel_5"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="5"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"
+
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/panel_6"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="6"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484" />
+    </LinearLayout>
+
+    <!--第3行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/panel_7"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="7"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"
+
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/panel_8"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="8"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"
+
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/panel_9"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="9"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"/>
+    </LinearLayout>
+
+    <!--第4行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/panel_clear"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="清空"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"
+
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/panel_0"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="0"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"
+
+            android:layout_marginEnd="20dp"/>
+        <ImageButton
+            android:id="@+id/panel_delete"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/delete_icon"
+            android:textSize="@dimen/font_size_main"
+            android:textColor="@color/colorSelected"
+            android:background="#bd868484"/>
+    </LinearLayout>
+    <!--搜索-->
+    <Button
+        android:id="@+id/panel_search"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="搜索"
+        android:textSize="@dimen/font_size_main"
+        android:textColor="@color/colorSelected"
+        android:background="#bd868484" />
+
+</LinearLayout>

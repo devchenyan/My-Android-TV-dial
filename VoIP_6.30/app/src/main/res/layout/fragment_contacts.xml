@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_gravity="center">
+
+        <!--添加联系人-->
+        <cn.caratel.voip.cells.ContactCell
+            android:id="@+id/contact_cell_add"
+            app:imgSrc="@drawable/add"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:focusable="true"
+            app:textby="添加联系人">
+        </cn.caratel.voip.cells.ContactCell>
+
+        <cn.caratel.voip.cells.ContactCell
+            android:id="@+id/contact_cell_info"
+            app:imgSrc="@drawable/photo_head"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:focusable="true"
+            app:textby="50010080">
+        </cn.caratel.voip.cells.ContactCell>
+
+</LinearLayout>

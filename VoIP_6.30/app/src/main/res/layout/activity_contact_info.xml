@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8151515">
+
+    <ImageView
+        android:id="@+id/contact_add_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/photo_head_c"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/contact_add_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="50010085"
+        android:textSize="@dimen/font_size_main"
+        android:textColor="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/call"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="15dp"
+            android:background="@null"/>
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/call2"
+            android:layout_marginRight="15dp"
+            android:background="@null"
+            android:scaleType="centerCrop"/>
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/call3"
+            android:layout_marginRight="15dp"
+            android:background="@null"
+            android:scaleType="centerCrop"/>
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/call4"
+            android:background="@null"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+</LinearLayout>

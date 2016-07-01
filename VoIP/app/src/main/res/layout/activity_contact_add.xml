@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8151515">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="添加联系人"
+        android:textSize="@dimen/font_size_main"
+        android:textColor="@color/colorSelected"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:paddingBottom="50dp"
+        android:paddingLeft="150dp"
+        android:paddingRight="150dp"
+        android:paddingTop="40dp">
+        <FrameLayout
+            android:id="@+id/panel_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="100dp"/>
+        <FrameLayout
+            android:id="@+id/qrcode_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="100dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
